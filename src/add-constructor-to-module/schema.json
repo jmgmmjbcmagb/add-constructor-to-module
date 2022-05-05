@@ -1,0 +1,21 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "$id": "AddConstructorToModule",
+    "title": "add constructor to module",
+    "type": "object",
+    "description": "Add constructor to app module in Angular app",
+    "properties": {
+      "consoleMensage": {
+        "type": "string",
+        "description": "Message for console.",
+        "$default": {
+            "$source": "argv",
+            "index": 0
+        },
+        "x-prompt": "What is message for console 🤔?"
+      }
+    },
+    "required": [
+        "consoleMensage"
+    ]
+  }

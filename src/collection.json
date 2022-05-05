@@ -1,0 +1,10 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "add-constructor-to-module": {
+      "description": "Add constructor to app module in Angular app",
+      "factory": "./add-constructor-to-module/index#addConstructorToModule",
+      "schema": "./add-constructor-to-module/schema.json"
+    }
+  }
+}
